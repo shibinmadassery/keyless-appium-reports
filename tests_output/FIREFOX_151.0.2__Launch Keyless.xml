@@ -5,9 +5,9 @@
 
   <testsuite name="Launch Keyless App in Real Device" id="Launch Keyless"
     errors="0" failures="0" hostname="" package="Launch Keyless" skipped="0"
-    tests="1" time="10.62" timestamp="">
+    tests="1" time="10.59" timestamp="">
   
-    <testcase name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device" time="0.3720" assertions="4">
+    <testcase name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device" time="0.3470" assertions="4">
 
     
 
