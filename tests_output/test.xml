@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new GeckoDriver session: [Error] spawn C:/Users/shibi/AppData/Roaming/npm/node_modules/appium/ ENOENT
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;C:/Users/shibi/AppData/Roaming/npm/node_modules/appium/&#39;,
+     port: 4723,
+     host: &#39;127.0.0.1&#39;,
+     ssl: false,
+     default_path_prefix: &#39;/wd/hub&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new GeckoDriver session: [Error] spawn C:/Users/shibi/AppData/Roaming/npm/node_modules/appium/ ENOENT"><![CDATA[
+      Error: An error occurred while creating a new GeckoDriver session: [Error] spawn C:/Users/shibi/AppData/Roaming/npm/node_modules/appium/ ENOENT
+    at C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\remote\index.js:259:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Launch Keyless App Test" classname="test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

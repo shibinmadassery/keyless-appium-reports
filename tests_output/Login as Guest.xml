@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="Login as Guest"
+    errors="1" failures="0" hostname="" id="" package="Login as Guest" skipped="1"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Expected browser binary location, but unable to find binary in default location, no &#39;moz:firefoxOptions.binary&#39; capability provided, and no binary flag set on the command line
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: undefined,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Expected browser binary location, but unable to find binary in default location, no &#39;moz:firefoxOptions.binary&#39; capability provided, and no binary flag set on the command line
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: undefined,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Should login as guest user" classname="Login as Guest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

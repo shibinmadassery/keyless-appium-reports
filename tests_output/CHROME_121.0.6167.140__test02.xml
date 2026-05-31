@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test02"
+    errors="0" failures="0" hostname="" id="" package="test02" skipped="0"
+    tests="1" time="5.478" timestamp="">
+  
+    <testcase name="Launch Android Application Test" classname="test02" time="2.739" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

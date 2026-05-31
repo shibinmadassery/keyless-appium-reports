@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="nightwatch.conf" id="nightwatch.conf"
+    errors="0" failures="0" hostname="" package="nightwatch.conf" skipped="0"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;before&#34;. Make sure to call the done() callback when the operation finishes.
+
+    Try fixing by :
+    1. You can increase the hooks timeout by setting &#34;asyncHookTimeout&#34; in the globals config to the required value.
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

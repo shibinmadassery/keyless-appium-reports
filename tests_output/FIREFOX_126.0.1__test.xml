@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test"
+    errors="0" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="1" time="20.71" timestamp="">
+  
+    <testcase name="Launch Keyless App Test" classname="test" time="10.35" assertions="1">  <failure message="Timed out while waiting for element &lt;//android.widget.TextView[@text=&#34;Welcome&#34;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5289ms)">    at Launch Keyless App Test (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\test.js:10:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

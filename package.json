@@ -1,0 +1,20 @@
+{
+  "name": "keyless-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nightwatch/mobile-helper": "^2.0.0",
+    "appium": "^2.19.0",
+    "appium-uiautomator2-driver": "^3.9.9",
+    "webdriverio": "^9.27.1"
+  },
+  "dependencies": {
+    "nightwatch": "^3.7.1"
+  }
+}

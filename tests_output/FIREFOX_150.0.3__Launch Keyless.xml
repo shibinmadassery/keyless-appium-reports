@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Launch Keyless App in Real Device" id="Launch Keyless"
+    errors="0" failures="0" hostname="" package="Launch Keyless" skipped="0"
+    tests="1" time="11.31" timestamp="">
+  
+    <testcase name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device" time="0.3730" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

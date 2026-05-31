@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="Launch Keyless App in Real Device" id="Launch Keyless"
+    errors="1" failures="0" hostname="" package="Launch Keyless" skipped="1"
+    tests="0" time="0.006000" timestamp="">
+  
+
+  
+    <system-err>
+       TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;before&#34;. Make sure to call the done() callback when the operation finishes.
+
+    Try fixing by :
+    1. You can increase the hooks timeout by setting &#34;asyncHookTimeout&#34; in the globals config to the required value.
+    </system-err>
+  
+
+    
+    <error message="done() callback timeout of 20000ms was reached while executing &#34;before&#34;. Make sure to call the done() callback when the operation finishes."><![CDATA[
+      TimeoutError: done() callback timeout of 20000ms was reached while executing &#34;before&#34;. Make sure to call the done() callback when the operation finishes.
+    at Timeout._onTimeout (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\utils\timed-callback.js:52:19)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

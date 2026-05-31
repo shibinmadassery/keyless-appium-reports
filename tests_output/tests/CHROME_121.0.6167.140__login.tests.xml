@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="tests.login.tests"
+    errors="0" failures="1" hostname="" id="" package="login.tests" skipped="0"
+    tests="1" time="0.1840" timestamp="">
+  
+    <testcase name="Should click the login button after launching the test" classname="tests.login.tests" time="0.08300" assertions="1">  <failure message="browser.deleteSession is not a function">TypeError: browser.deleteSession is not a function
+    at DescribeInstance.&lt;anonymous&gt; (C:\Keyless\keyless-appium\nightwatch\tests\login.tests.js:20:23)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

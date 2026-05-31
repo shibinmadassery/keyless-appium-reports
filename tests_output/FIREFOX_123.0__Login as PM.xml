@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Login as PM"
+    errors="1" failures="0" hostname="" id="" package="Login as PM" skipped="0"
+    tests="1" time="110.3" timestamp="">
+  
+    <testcase name="Should login as property manager" classname="Login as PM" time="55.13" assertions="0">
+    <error message="testCompleted is not defined" type="error"><![CDATA[
+    ReferenceError: testCompleted is not defined
+    at DescribeInstance.&lt;anonymous&gt; (C:\Keyless\keyless-appium\nightwatch\tests\Login as PM.js:29:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ ReferenceError
+   testCompleted is not defined
+
+    Error location:
+    C:\Keyless\keyless-appium\nightwatch\tests\Login as PM.js:29
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     27 |       if (driver) {
+     28 |         await driver.deleteSession();
+     29 |         assert.equal(testCompleted, true, &#39;Test should complete fully&#39;); 
+     30 |       }
+     31 |     }
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at DescribeInstance.&lt;anonymous&gt; (C:\Keyless\keyless-appium\nightwatch\tests\Login as PM.js:29:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

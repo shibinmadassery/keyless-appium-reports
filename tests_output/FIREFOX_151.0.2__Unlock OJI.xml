@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Login As PM" id="Unlock OJI"
+    errors="0" failures="0" hostname="" package="Unlock OJI" skipped="0"
+    tests="1" time="1.592" timestamp="">
+  
+    <testcase name="Should login as PM, and unlock OJI Lock" classname="Login As PM" time="1.588" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ ReferenceError
+   testCompleted is not defined
+
+    Error location:
+    C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Unlock ISEO.js:40
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     38 |       if (driver) {
+     39 |         await driver.deleteSession();
+     40 |         assert.equal(testCompleted, true, &#39;Test should complete fully&#39;); 
+     41 |       }
+     42 |     }
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Unlock ISEO.js:40:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+ Error
+   WebDriverError: Request failed with error code ECONNREFUSED when running &#34;http://localhost:4723/session/776a51de-ae61-4d02-b8d4-df99fb3df0b0&#34; with method &#34;DELETE&#34;
+
+    Error location:
+    C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Unlock Messerschmitt.js:39
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     37 |       // Close the driver session
+     38 |       if (driver) {
+     39 |         await driver.deleteSession(); 
+     40 |         assert.equal(testCompleted, true, &#39;Test should complete fully&#39;);
+     41 |       }
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
