@@ -1,0 +1,138 @@
+{
+  "status": "fail",
+  "timestamp": "2026-05-15T05:21:36.657Z",
+  "duration": 348,
+  "passed": 1,
+  "failed": 4,
+  "skipped": 0,
+  "errors": 5,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "TimeoutError",
+        "help": [
+          "You can increase the hooks timeout by setting \"asyncHookTimeout\" in the globals config to the required value."
+        ],
+        "skipTestCases": true,
+        "displayed": true
+      },
+      "testcases": {}
+    },
+    "Login": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login to PM Account": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 20782,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock ISEO": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "ReferenceError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should login as PM and unlock ISEO Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 34880,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock Messerschmitt": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "ReferenceError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should login as PM and unlock Messerschmitt Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 34080,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock OJI": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "ReferenceError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should login as PM, and unlock OJI Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 34959,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock Rayonics": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "ReferenceError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should login as PM, and unlock Rayonics Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 34138,
+          "assertions": []
+        }
+      }
+    },
+    "nightwatch.conf": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {}
+    }
+  }
+}

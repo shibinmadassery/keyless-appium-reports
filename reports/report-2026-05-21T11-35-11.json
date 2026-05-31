@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "timestamp": "2026-05-21T11:35:11.711Z",
+  "duration": 1,
+  "passed": 0,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "WebDriverError",
+        "remoteStacktrace": "",
+        "showTrace": false,
+        "reportShown": true,
+        "sessionCreate": true
+      },
+      "testcases": {}
+    }
+  }
+}

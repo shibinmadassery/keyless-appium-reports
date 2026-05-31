@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "timestamp": "2026-05-18T11:33:05.194Z",
+  "duration": 18,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Login": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login to PM Account": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 12069,
+          "assertions": []
+        }
+      }
+    }
+  }
+}

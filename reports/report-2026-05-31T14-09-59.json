@@ -1,0 +1,40 @@
+{
+  "status": "fail",
+  "timestamp": "2026-05-31T14:09:59.910Z",
+  "duration": 40,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 1,
+      "lastError": {
+        "name": "Error",
+        "displayed": true
+      },
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 5238,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Device setup failed — device may not be connected: ",
+              "passed": false,
+              "failure": "Passed [equal]: Device setup failed — device may not be connected: "
+            }
+          ],
+          "failure": "Passed [equal]: Device setup failed — device may not be connected: "
+        }
+      }
+    }
+  }
+}

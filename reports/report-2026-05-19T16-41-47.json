@@ -1,0 +1,126 @@
+{
+  "status": "pass",
+  "timestamp": "2026-05-19T16:41:47.010Z",
+  "duration": 482,
+  "passed": 5,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "TimeoutError",
+        "help": [
+          "You can increase the hooks timeout by setting \"asyncHookTimeout\" in the globals config to the required value."
+        ],
+        "skipTestCases": true,
+        "displayed": true
+      },
+      "testcases": {}
+    },
+    "Login": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login to PM Account": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 82216,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock ISEO": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login as PM and unlock ISEO Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 82120,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock Messerschmitt": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login as PM and unlock Messerschmitt Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 82170,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock OJI": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login as PM, and unlock OJI Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 82136,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock Rayonics": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login as PM, and unlock Rayonics Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 82269,
+          "assertions": []
+        }
+      }
+    },
+    "nightwatch.conf": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {}
+    }
+  }
+}

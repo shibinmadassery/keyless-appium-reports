@@ -1,0 +1,183 @@
+{
+  "status": "fail",
+  "timestamp": "2026-05-29T08:25:49.393Z",
+  "duration": 422,
+  "passed": 3,
+  "failed": 2,
+  "skipped": 0,
+  "errors": 4,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 4,
+      "lastError": null,
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 4,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 513,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Device setup failed — device may not be connected: ",
+              "passed": false,
+              "failure": "Passed [equal]: Device setup failed — device may not be connected: "
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Keyless icon is visible on the welcome screen",
+              "passed": false,
+              "failure": "Passed [equal]: Keyless icon is visible on the welcome screen"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Welcome screen title is displayed",
+              "passed": false,
+              "failure": "Passed [equal]: Welcome screen title is displayed"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button is visible on the welcome screen",
+              "passed": false,
+              "failure": "Passed [equal]: Login button is visible on the welcome screen"
+            }
+          ],
+          "failure": "Passed [equal]: Device setup failed — device may not be connected: "
+        }
+      }
+    },
+    "Login": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login to PM Account": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 28807,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock ISEO": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "ReferenceError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should login as PM and unlock ISEO Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 36795,
+          "assertions": [],
+          "failure": "testCompleted is not defined",
+          "stackTrace": "ReferenceError: testCompleted is not defined\n    at DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\Unlock ISEO.js:40:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+      }
+    },
+    "Unlock Messerschmitt": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": {
+        "url": "http://localhost:4723/session/776a51de-ae61-4d02-b8d4-df99fb3df0b0",
+        "opts": {
+          "method": "DELETE",
+          "redirect": "follow",
+          "signal": {},
+          "headers": {},
+          "dispatcher": {
+            "_events": {},
+            "_eventsCount": 0
+          }
+        },
+        "code": "ECONNREFUSED",
+        "name": "Error",
+        "displayed": true
+      },
+      "testcases": {
+        "Should login as PM and unlock Messerschmitt Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 37751,
+          "assertions": [],
+          "failure": "WebDriverError: Request failed with error code ECONNREFUSED when running \"http://localhost:4723/session/776a51de-ae61-4d02-b8d4-df99fb3df0b0\" with method \"DELETE\"",
+          "stackTrace": "Error: WebDriverError: Request failed with error code ECONNREFUSED when running \"http://localhost:4723/session/776a51de-ae61-4d02-b8d4-df99fb3df0b0\" with method \"DELETE\"\n    at FetchRequest._libRequest (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriver/build/node.js:2168:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async FetchRequest._request (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriver/build/node.js:2194:20)\n    at async Browser.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)\n    at async DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\Unlock Messerschmitt.js:39:9)"
+        }
+      }
+    },
+    "Unlock OJI": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login as PM, and unlock OJI Lock": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 1588,
+          "assertions": []
+        }
+      }
+    },
+    "Unlock Rayonics": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "SessionNotCreatedError",
+        "remoteStacktrace": "",
+        "detailedErr": " Verify if GeckoDriver is configured correctly; using:\n  {\n     start_process: true,\n     server_path: undefined,\n     port: 4444,\n     host: 'localhost',\n     ssl: false,\n     default_path_prefix: '',\n     proxy: undefined,\n     cli_args: {}\n  }\n",
+        "extraDetail": "\n  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.",
+        "showTrace": false,
+        "reportShown": true,
+        "sessionCreate": true
+      },
+      "testcases": {}
+    },
+    "nightwatch.conf": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "SessionNotCreatedError",
+        "remoteStacktrace": "",
+        "detailedErr": " Verify if GeckoDriver is configured correctly; using:\n  {\n     start_process: true,\n     server_path: undefined,\n     port: 4444,\n     host: 'localhost',\n     ssl: false,\n     default_path_prefix: '',\n     proxy: undefined,\n     cli_args: {}\n  }\n",
+        "extraDetail": "\n  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.",
+        "showTrace": false,
+        "reportShown": true,
+        "sessionCreate": true
+      },
+      "testcases": {}
+    }
+  }
+}

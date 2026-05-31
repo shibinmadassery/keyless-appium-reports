@@ -1,0 +1,62 @@
+{
+  "status": "fail",
+  "timestamp": "2026-05-15T08:13:13.366Z",
+  "duration": 18,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 4,
+      "lastError": {
+        "name": "NightwatchAssertError",
+        "message": "Failed [equal]: (Intentional failure: this step is expected to fail) - expected \u001b[32m\"false\"\u001b[39m but got: \u001b[31m\"true\"\u001b[39m \u001b[90m(10ms)\u001b[39m",
+        "showDiff": false,
+        "abortOnFailure": true,
+        "namespace": "assert",
+        "stack": "    at DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\Launch Keyless.js:34:16)"
+      },
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 3,
+          "failed": 1,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 383,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Keyless icon is visible on the welcome screen",
+              "passed": false,
+              "failure": null
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Welcome screen title is displayed",
+              "passed": false,
+              "failure": null
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button is visible on the welcome screen",
+              "passed": false,
+              "failure": null
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Failed [equal]: (Intentional failure: this step is expected to fail) - expected \u001b[32m\"false\"\u001b[39m but got: \u001b[31m\"true\"\u001b[39m \u001b[90m(10ms)\u001b[39m",
+              "passed": false,
+              "failure": "Expected \"false\" but got: \"true\""
+            }
+          ],
+          "failure": "Passed [equal]: Keyless icon is visible on the welcome screen"
+        }
+      }
+    }
+  }
+}

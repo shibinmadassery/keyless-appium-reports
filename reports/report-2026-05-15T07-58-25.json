@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "timestamp": "2026-05-15T07:58:25.890Z",
+  "duration": 29,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Login": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 1,
+      "lastError": null,
+      "testcases": {
+        "Should login to PM Account": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 15339,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Test should complete fully",
+              "passed": false,
+              "failure": null
+            }
+          ],
+          "failure": "Passed [equal]: Test should complete fully"
+        }
+      }
+    }
+  }
+}
