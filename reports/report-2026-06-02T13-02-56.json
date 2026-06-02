@@ -1,0 +1,46 @@
+{
+  "status": "fail",
+  "timestamp": "2026-06-02T13:02:56.425Z",
+  "duration": 71,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 2,
+      "lastError": {
+        "name": "TypeError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 0,
+          "failed": 2,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 97,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Failed [equal]: (Device setup failed — device may not be connected: Unable to connect to \"http://localhost:4723/\", make sure browser driver is running on that address.\nIt seems like the service failed to start or is rejecting any connections.) - expected \u001b[32m\"null\"\u001b[39m but got: \u001b[31m\"Error: Unable to connect to \"http://localhost:4723/\", make sure browser driver is running on that address.\u001b[39m\n\u001b[31mIt seems like the service failed to start or is rejecting any connections.\u001b[39m\n\u001b[31m    at startWebDriverSession (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriver/build/node.js:1335:11)\u001b[39m\n\u001b[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\u001b[39m\n\u001b[31m    at async _WebDriver.newSession (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriver/build/node.js:1753:41)\u001b[39m\n\u001b[31m    at async remote (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriverio/build/node.js:9979:20)\u001b[39m\n\u001b[31m    at async configAppiumTest (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\config\\config.js:29:18)\u001b[39m\n\u001b[31m    at async DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\Launch Keyless.js:13:22)\"\u001b[39m \u001b[90m(5ms)\u001b[39m",
+              "passed": false,
+              "failure": "Expected \"null\" but got: \"Error: Unable to connect to \"http://localhost:4723/\", make sure browser driver is running on that address.\nIt seems like the service failed to start or is rejecting any connections.\""
+            },
+            {
+              "name": "TypeError",
+              "message": "Cannot read properties of undefined (reading '$')",
+              "passed": false,
+              "failure": "expected \"undefined\" but got: \"undefined\""
+            }
+          ],
+          "failure": "Expected \"null\" but got: \"Error: Unable to connect to \"http://localhost:4723/\", make sure browser driver is running on that address.\nIt seems like the service failed to start or is rejecting any connections.\""
+        }
+      }
+    }
+  }
+}
