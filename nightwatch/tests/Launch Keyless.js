@@ -20,13 +20,14 @@ describe('Launch Keyless App in Real Device', () => {
 
     after(async () => {
         if (driver) {
+            await driver.terminateApp('com.keyless_dubai');
             console.log('Closing Appium session.');
             await driver.deleteSession();
         }
     });
 
     it('Should launch the Keyless app in POCO', async () => {
-        assert.equal(setupError, null, `Device setup failed — device may not be connected: ${setupError ? setupError.message : ''}`);
+        if (setupError) assert.fail(`Device setup failed — device may not be connected: ${setupError.message}`);
 
         await welcomeScreenUtlis.verifyKeylessIcon(driver);
         const keylessIcon = await driver.$('android.widget.ImageView');

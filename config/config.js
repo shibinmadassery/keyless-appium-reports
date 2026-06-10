@@ -34,6 +34,8 @@ async function configAppiumTest() {
     'appium:deviceName':           'Oppo',
     'appium:appPackage':           'com.keyless_dubai',
     'appium:appActivity':          'com.app.keyless.home.DashboardActivity',
+    'appium:appWaitActivity':      'com.app.keyless.*',
+    'appium:appWaitDuration':      20000,
     'appium:autoGrantPermissions': true,
     'appium:noReset':              true,
     'appium:fullReset':            false,

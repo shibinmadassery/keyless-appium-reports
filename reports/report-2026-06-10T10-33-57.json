@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "timestamp": "2026-06-10T10:33:57.356Z",
+  "duration": 17,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 4,
+      "lastError": null,
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 4,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 421,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Device setup failed — device may not be connected: ",
+              "passed": false,
+              "failure": "Passed [equal]: Device setup failed — device may not be connected: "
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Keyless icon is visible on the welcome screen",
+              "passed": false,
+              "failure": "Passed [equal]: Keyless icon is visible on the welcome screen"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Welcome screen title is displayed",
+              "passed": false,
+              "failure": "Passed [equal]: Welcome screen title is displayed"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button is visible on the welcome screen",
+              "passed": false,
+              "failure": "Passed [equal]: Login button is visible on the welcome screen"
+            }
+          ],
+          "failure": "Passed [equal]: Device setup failed — device may not be connected: "
+        }
+      }
+    }
+  }
+}

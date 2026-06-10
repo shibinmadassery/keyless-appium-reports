@@ -1,0 +1,46 @@
+{
+  "status": "fail",
+  "timestamp": "2026-06-10T10:30:21.636Z",
+  "duration": 21,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 2,
+      "lastError": {
+        "name": "TypeError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 0,
+          "failed": 2,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 97,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Failed [equal]: (Device setup failed — device may not be connected: waitUntil condition failed with the following reason: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running \"element\" with method \"POST\") - expected \"null\" but got: \"Error: waitUntil condition failed with the following reason: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running \"element\" with method \"POST\"\n    at FetchRequest._request (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriver/build/node.js:2229:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    ---\n    at async Object.verifyLoginButton (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\utlis\\welcomeScreenUtlis.js:41:5)\n    at async configAppiumTest (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\config\\config.js:53:5)\n    at async DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\Launch Keyless.js:13:22)\" (17ms)",
+              "passed": false,
+              "failure": "Expected \"null\" but got: \"Error: waitUntil condition failed with the following reason: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running \"element\" with method \"POST\"\""
+            },
+            {
+              "name": "TypeError",
+              "message": "Cannot read properties of undefined (reading '$')",
+              "passed": false,
+              "failure": "expected \"undefined\" but got: \"undefined\""
+            }
+          ],
+          "failure": "Expected \"null\" but got: \"Error: waitUntil condition failed with the following reason: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running \"element\" with method \"POST\"\""
+        }
+      }
+    }
+  }
+}

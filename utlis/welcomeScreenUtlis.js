@@ -38,7 +38,7 @@ async function clickLoginButtonToAccount(driver) {
 
 async function verifyLoginButton(driver) {
     const loginButton = await driver.$(welcomescreenSelectors.loginButton)
-    await loginButton.waitForDisplayed();
+    await loginButton.waitForDisplayed({ timeout: 20000 });
 }
 
 

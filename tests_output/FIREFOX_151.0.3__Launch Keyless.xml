@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="2"
             tests="1">
 
   <testsuite name="Launch Keyless App in Real Device" id="Launch Keyless"
-    errors="0" failures="0" hostname="" package="Launch Keyless" skipped="0"
-    tests="1" time="7.427" timestamp="">
+    errors="0" failures="2" hostname="" package="Launch Keyless" skipped="0"
+    tests="1" time="12.90" timestamp="">
   
-    <testcase name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device" time="0.5950" assertions="4">
+    <testcase name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device" time="0.08900" assertions="2">  <failure message="Failed [equal]: (Device setup failed — device may not be connected: element (&#34;id:com.keyless_dubai:id/loginTxt&#34;) still not displayed after 5000ms) - expected &#34;null&#34; but got: &#34;Error: element (&#34;id:com.keyless_dubai:id/loginTxt&#34;) still not displayed after 5000ms
+    at file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriverio/build/node.js:6013:15
+    at async Element.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)
+    at async Element.elementErrorHandlerCallbackFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriverio/build/node.js:9601:24)
+    at async Element.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)
+    at async Element.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)
+    at async Element.elementErrorHandlerCallbackFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriverio/build/node.js:9601:24)
+    at async Element.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)
+    at async Object.verifyLoginButton (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\utlis\welcomeScreenUtlis.js:41:5)
+    at async configAppiumTest (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\config\config.js:53:5)
+    at async DescribeInstance.&lt;anonymous&gt; (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Launch Keyless.js:13:22)&#34; (14ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Launch Keyless.js:29:16)</failure>
 
-    
-
-    
-
-    
+      <failure message="Cannot read properties of undefined (reading &#39;$&#39;)">TypeError: Cannot read properties of undefined (reading &#39;$&#39;)
+    at Object.verifyKeylessIcon (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\utlis\welcomeScreenUtlis.js:13:44)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Launch Keyless.js:31:34)</failure>
 
     
     </testcase>

@@ -1,0 +1,46 @@
+{
+  "status": "fail",
+  "timestamp": "2026-06-04T05:12:58.168Z",
+  "duration": 22,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 2,
+      "lastError": {
+        "name": "TypeError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 0,
+          "failed": 2,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 89,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Failed [equal]: (Device setup failed — device may not be connected: element (\"id:com.keyless_dubai:id/loginTxt\") still not displayed after 5000ms) - expected \"null\" but got: \"Error: element (\"id:com.keyless_dubai:id/loginTxt\") still not displayed after 5000ms\n    at file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriverio/build/node.js:6013:15\n    at async Element.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)\n    at async Element.elementErrorHandlerCallbackFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriverio/build/node.js:9601:24)\n    at async Element.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)\n    at async Element.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)\n    at async Element.elementErrorHandlerCallbackFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/webdriverio/build/node.js:9601:24)\n    at async Element.wrapCommandFn (file:///C:/Users/shibi/OneDrive%20-%20SIRA.Gov.AE/keyless-appium/node_modules/@wdio/utils/build/index.js:982:23)\n    at async Object.verifyLoginButton (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\utlis\\welcomeScreenUtlis.js:41:5)\n    at async configAppiumTest (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\config\\config.js:53:5)\n    at async DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\Launch Keyless.js:13:22)\" (14ms)",
+              "passed": false,
+              "failure": "Expected \"null\" but got: \"Error: element (\"id:com.keyless_dubai:id/loginTxt\") still not displayed after 5000ms\""
+            },
+            {
+              "name": "TypeError",
+              "message": "Cannot read properties of undefined (reading '$')",
+              "passed": false,
+              "failure": "expected \"undefined\" but got: \"undefined\""
+            }
+          ],
+          "failure": "Expected \"null\" but got: \"Error: element (\"id:com.keyless_dubai:id/loginTxt\") still not displayed after 5000ms\""
+        }
+      }
+    }
+  }
+}

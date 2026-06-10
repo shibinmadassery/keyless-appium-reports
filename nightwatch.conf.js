@@ -141,7 +141,10 @@ module.exports = {
       },
 
       desiredCapabilities: {
-        browserName : 'firefox'
+        browserName : 'firefox',
+        'moz:firefoxOptions': {
+          args: ['-headless']
+        }
       },
 
       webdriver: {

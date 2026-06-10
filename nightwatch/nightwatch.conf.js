@@ -51,7 +51,10 @@ module.exports = {
       },
 
       desiredCapabilities: {
-        browserName : 'firefox'
+        browserName : 'firefox',
+        'moz:firefoxOptions': {
+          args: ['-headless']
+        }
       },
 
       webdriver: {
@@ -68,7 +71,7 @@ module.exports = {
         acceptInsecureCerts: true,
         'moz:firefoxOptions': {
           args: [
-            // '-headless',
+            '-headless',
             // '-verbose'
           ]
         }
@@ -337,7 +340,7 @@ module.exports = {
         browserName: 'firefox',
         'moz:firefoxOptions': {
           args: [
-            // '-headless',
+            '-headless',
             // '-verbose'
           ]
         }
