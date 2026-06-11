@@ -8,19 +8,19 @@ function getDeviceUdid() {
     const lines  = output.split('\n');
 
     for (const line of lines) {
-      // Match f64e330e in any form — USB, wireless, or tls-connect
-      if (line.includes('f64e330e') && line.includes('device')) {
+      // Match f64e330e OR 192.168.0.140:5555
+      if ((line.includes('f64e330e') || line.includes('192.168.0.140')) 
+           && line.includes('device')) {
         const udid = line.split('\t')[0].trim();
         console.log(`[Config] Found device: ${udid}`);
         return udid;
       }
     }
 
-    console.warn('[Config] f64e330e not found — falling back to 192.168.0.140:37289');
-    return '192.168.0.140:37289';
+    console.warn('[Config] Device not found — using fallback');
+    return '192.168.0.140:5555';
   } catch(e) {
-    console.warn('[Config] adb error — falling back:', e.message);
-    return '192.168.0.140:37289';
+    return '192.168.0.140:5555';
   }
 }
 
