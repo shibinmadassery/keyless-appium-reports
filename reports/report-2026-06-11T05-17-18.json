@@ -1,0 +1,46 @@
+{
+  "status": "fail",
+  "timestamp": "2026-06-11T05:17:18.396Z",
+  "duration": 8,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 2,
+      "lastError": {
+        "name": "TypeError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 0,
+          "failed": 2,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 81,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Device setup failed — device may not be connected: WebDriverError: An unknown server-side error occurred while processing the command. Original error: Device 192.168.0.140:37289 was not in the list of connected devices when running \"http://localhost:4723/session\" with method \"POST\"",
+              "passed": false,
+              "failure": true
+            },
+            {
+              "name": "TypeError",
+              "message": "Cannot read properties of undefined (reading '$')",
+              "passed": false,
+              "failure": "expected \"undefined\" but got: \"undefined\""
+            }
+          ],
+          "failure": true
+        }
+      }
+    }
+  }
+}

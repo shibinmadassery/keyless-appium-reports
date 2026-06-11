@@ -1,0 +1,46 @@
+{
+  "status": "fail",
+  "timestamp": "2026-06-11T06:46:22.423Z",
+  "duration": 42,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 2,
+      "lastError": {
+        "name": "Error",
+        "displayed": true
+      },
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 1,
+          "failed": 1,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 21523,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Keyless icon is visible on the welcome screen",
+              "passed": false,
+              "failure": "Passed [equal]: Keyless icon is visible on the welcome screen"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Failed [equal]: (Welcome screen title is displayed) - expected \"true\" but got: \"false\" (2ms)",
+              "passed": false,
+              "failure": "Expected \"true\" but got: \"false\""
+            }
+          ],
+          "failure": "Passed [equal]: Keyless icon is visible on the welcome screen"
+        }
+      }
+    }
+  }
+}
