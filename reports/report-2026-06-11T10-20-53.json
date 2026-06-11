@@ -1,0 +1,185 @@
+{
+  "status": "pass",
+  "timestamp": "2026-06-11T10:20:53.494Z",
+  "duration": 53,
+  "passed": 8,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Verify Welcome Screen": {
+      "passed": 8,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 8,
+      "assertionsCount": 14,
+      "lastError": null,
+      "testcases": {
+        "Should display the Keyless logo/icon": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 166,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Keyless logo should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Keyless logo should be visible"
+            }
+          ],
+          "failure": "Passed [equal]: Keyless logo should be visible"
+        },
+        "Should display the onboarding title \"Access\"": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 178,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Onboarding title should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Onboarding title should be visible"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Title should read \"Access\"",
+              "passed": false,
+              "failure": "Passed [equal]: Title should read \"Access\""
+            }
+          ],
+          "failure": "Passed [equal]: Onboarding title should be visible"
+        },
+        "Should display the onboarding subtitle": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 192,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Onboarding subtitle should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Onboarding subtitle should be visible"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Subtitle should read \"All your locks from one app.\"",
+              "passed": false,
+              "failure": "Passed [equal]: Subtitle should read \"All your locks from one app.\""
+            }
+          ],
+          "failure": "Passed [equal]: Onboarding subtitle should be visible"
+        },
+        "Should display the tab indicator with 3 dots": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 140,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Tab indicator should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Tab indicator should be visible"
+            }
+          ],
+          "failure": "Passed [equal]: Tab indicator should be visible"
+        },
+        "Should display the Login button": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 810,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Login button should be visible"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button text should read \"Login\"",
+              "passed": false,
+              "failure": "Passed [equal]: Login button text should read \"Login\""
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button should be clickable",
+              "passed": false,
+              "failure": "Passed [equal]: Login button should be clickable"
+            }
+          ],
+          "failure": "Passed [equal]: Login button should be visible"
+        },
+        "Should display the Signup link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 286,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Signup link should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Signup link should be visible"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Signup link text should read \"Not yet registered? Signup.\"",
+              "passed": false,
+              "failure": "Passed [equal]: Signup link text should read \"Not yet registered? Signup.\""
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Signup link should be clickable",
+              "passed": false,
+              "failure": "Passed [equal]: Signup link should be clickable"
+            }
+          ],
+          "failure": "Passed [equal]: Signup link should be visible"
+        },
+        "Should display the onboarding video/background": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 171,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Onboarding video background should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Onboarding video background should be visible"
+            }
+          ],
+          "failure": "Passed [equal]: Onboarding video background should be visible"
+        },
+        "Should display the onboarding view pager": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 146,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Onboarding ViewPager should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Onboarding ViewPager should be visible"
+            }
+          ],
+          "failure": "Passed [equal]: Onboarding ViewPager should be visible"
+        }
+      }
+    }
+  }
+}

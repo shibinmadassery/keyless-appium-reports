@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "timestamp": "2026-06-11T09:37:18.444Z",
+  "duration": 61,
+  "passed": 0,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "Verify Welcome Screen": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "TimeoutError",
+        "help": [
+          "You can increase the hooks timeout by setting \"asyncHookTimeout\" in the globals config to the required value."
+        ],
+        "skipTestCases": true,
+        "displayed": true
+      },
+      "testcases": {}
+    }
+  }
+}

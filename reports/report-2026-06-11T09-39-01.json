@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "timestamp": "2026-06-11T09:39:01.249Z",
+  "duration": 6,
+  "passed": 0,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "detailedErr": " Verify if GeckoDriver is configured correctly; using:\n  {\n     start_process: true,\n     server_path: undefined,\n     port: 4444,\n     host: 'localhost',\n     ssl: false,\n     default_path_prefix: '',\n     proxy: undefined,\n     cli_args: {}\n  }\n",
+        "extraDetail": "\n  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.",
+        "showTrace": false,
+        "reportShown": true,
+        "sessionCreate": true
+      },
+      "testcases": {}
+    }
+  }
+}

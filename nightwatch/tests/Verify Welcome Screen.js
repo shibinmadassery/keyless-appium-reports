@@ -15,6 +15,7 @@ describe('Welcome Screen - Element Assertions', () => {
 
     after(async () => {
         if (driver) {
+            await driver.terminateApp('com.keyless_dubai');
             console.log('Closing Appium session.');
             await driver.deleteSession();
         }
