@@ -3,9 +3,9 @@
             failures="0"
             tests="0">
 
-  <testsuite name="nightwatch.conf" id="nightwatch.conf"
-    errors="1" failures="0" hostname="" package="nightwatch.conf" skipped="0"
-    tests="0" time="0.000" timestamp="">
+  <testsuite name="Welcome Screen - Element Assertions" id="Verify Welcome Screen"
+    errors="1" failures="0" hostname="" package="Verify Welcome Screen" skipped="5"
+    tests="0" time="0.001000" timestamp="">
   
 
   
@@ -140,6 +140,33 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
       ]]></error>  
 
+  
+    
+    <testcase
+      name="Should display onboarding title &#34;Access&#34;" classname="Welcome Screen - Element Assertions">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should display subtitle &#34;All your locks from one app.&#34;" classname="Welcome Screen - Element Assertions">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should display Login button" classname="Welcome Screen - Element Assertions">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should display Signup link" classname="Welcome Screen - Element Assertions">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should display tab indicator" classname="Welcome Screen - Element Assertions">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

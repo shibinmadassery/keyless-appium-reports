@@ -10,37 +10,7 @@
 
   
     <system-err>
-       ✖ ReferenceError
-   testCompleted is not defined
-
-    Error location:
-    C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Unlock ISEO.js:40
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     38 |       if (driver) {
-     39 |         await driver.deleteSession();
-     40 |         assert.equal(testCompleted, true, &#39;Test should complete fully&#39;); 
-     41 |       }
-     42 |     }
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
-    Stack Trace :
-    at DescribeInstance.&lt;anonymous&gt; (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Unlock ISEO.js:40:22)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-
- Error
-   WebDriverError: Request failed with error code ECONNREFUSED when running &#34;http://localhost:4723/session/776a51de-ae61-4d02-b8d4-df99fb3df0b0&#34; with method &#34;DELETE&#34;
-
-    Error location:
-    C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\Unlock Messerschmitt.js:39
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     37 |       // Close the driver session
-     38 |       if (driver) {
-     39 |         await driver.deleteSession(); 
-     40 |         assert.equal(testCompleted, true, &#39;Test should complete fully&#39;);
-     41 |       }
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
- An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started
+       An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
   Verify if GeckoDriver is configured correctly; using:
   {
      start_process: true,
@@ -55,7 +25,97 @@
 
  
   Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
- An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started
+ An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
   Verify if GeckoDriver is configured correctly; using:
   {
      start_process: true,
@@ -74,11 +134,9 @@
   
 
     
-    <error message="An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started"><![CDATA[
-      SessionNotCreatedError: An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started
-    at Object.throwDecodedError (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\lib\error.js:521:15)
-    at parseHttpResponse (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\lib\http.js:514:13)
-    at Executor.execute (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\lib\http.js:446:28)
+    <error message="An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1"><![CDATA[
+      Error: An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
+    at C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\remote\index.js:256:70
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
       ]]></error>  
 

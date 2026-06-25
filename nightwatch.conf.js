@@ -30,7 +30,7 @@ module.exports = {
   plugins: [],
   
   // See https://nightwatchjs.org/guide/concepts/test-globals.html#external-test-globals
-  globals_path : '',
+  globals_path : './nightwatch-hook.js',
 
   globals: {
     reporter: function(results, done) {

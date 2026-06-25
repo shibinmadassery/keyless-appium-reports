@@ -5,12 +5,12 @@
 
   <testsuite name="Launch Keyless App in Real Device" id="Launch Keyless"
     errors="1" failures="0" hostname="" package="Launch Keyless" skipped="1"
-    tests="0" time="0.005000" timestamp="">
+    tests="0" time="0.002000" timestamp="">
   
 
   
     <system-err>
-       An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 69
+       An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
   Verify if GeckoDriver is configured correctly; using:
   {
      start_process: true,
@@ -29,8 +29,8 @@
   
 
     
-    <error message="An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 69"><![CDATA[
-      Error: An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 69
+    <error message="An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1"><![CDATA[
+      Error: An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
     at C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\remote\index.js:256:70
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
       ]]></error>  

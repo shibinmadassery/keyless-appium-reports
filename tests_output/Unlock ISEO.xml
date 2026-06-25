@@ -3,8 +3,8 @@
             failures="0"
             tests="0">
 
-  <testsuite name="nightwatch.conf" id="nightwatch.conf"
-    errors="1" failures="0" hostname="" package="nightwatch.conf" skipped="0"
+  <testsuite name="Login As PM" id="Unlock ISEO"
+    errors="1" failures="0" hostname="" package="Unlock ISEO" skipped="1"
     tests="0" time="0.000" timestamp="">
   
 
@@ -140,6 +140,13 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
       ]]></error>  
 
+  
+    
+    <testcase
+      name="Should login as PM and unlock ISEO Lock" classname="Login As PM">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
