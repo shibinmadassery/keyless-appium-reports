@@ -1,0 +1,137 @@
+{
+  "status": "pass",
+  "timestamp": "2026-06-29T11:31:10.237Z",
+  "duration": 24,
+  "passed": 5,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "Verify Welcome Screen": {
+      "passed": 5,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 5,
+      "assertionsCount": 11,
+      "lastError": null,
+      "testcases": {
+        "Should display onboarding title \"Access\"": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 213,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Title should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Title should be visible"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Title should read \"Access\"",
+              "passed": false,
+              "failure": "Passed [equal]: Title should read \"Access\""
+            }
+          ],
+          "failure": "Passed [equal]: Title should be visible"
+        },
+        "Should display subtitle \"All your locks from one app.\"": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 200,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Subtitle should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Subtitle should be visible"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Subtitle text mismatch",
+              "passed": false,
+              "failure": "Passed [equal]: Subtitle text mismatch"
+            }
+          ],
+          "failure": "Passed [equal]: Subtitle should be visible"
+        },
+        "Should display Login button": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 268,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Login button should be visible"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button text mismatch",
+              "passed": false,
+              "failure": "Passed [equal]: Login button text mismatch"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button should be clickable",
+              "passed": false,
+              "failure": "Passed [equal]: Login button should be clickable"
+            }
+          ],
+          "failure": "Passed [equal]: Login button should be visible"
+        },
+        "Should display Signup link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 865,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Signup link should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Signup link should be visible"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Signup text mismatch",
+              "passed": false,
+              "failure": "Passed [equal]: Signup text mismatch"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Signup should be clickable",
+              "passed": false,
+              "failure": "Passed [equal]: Signup should be clickable"
+            }
+          ],
+          "failure": "Passed [equal]: Signup link should be visible"
+        },
+        "Should display tab indicator": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 191,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Tab indicator should be visible",
+              "passed": false,
+              "failure": "Passed [equal]: Tab indicator should be visible"
+            }
+          ],
+          "failure": "Passed [equal]: Tab indicator should be visible"
+        }
+      }
+    }
+  }
+}

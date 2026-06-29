@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "timestamp": "2026-06-25T09:22:08.915Z",
+  "duration": 24,
+  "passed": 0,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "Launch Keyless": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "TimeoutError",
+        "help": [
+          "You can increase the hooks timeout by setting \"asyncHookTimeout\" in the globals config to the required value."
+        ],
+        "skipTestCases": true,
+        "displayed": true
+      },
+      "testcases": {}
+    }
+  }
+}

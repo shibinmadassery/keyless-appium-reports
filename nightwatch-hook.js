@@ -49,7 +49,7 @@ function postResult(data) {
 
 module.exports = {
   // Runs once after ALL test suites finish
-  after: async function(done) {
+  after: async function() {
     try {
       const reportsDir = path.resolve('reports');
       const reportFile = findLatestReport(reportsDir);
@@ -77,6 +77,5 @@ module.exports = {
     } catch (e) {
       console.warn('[nightwatch-hook] Error:', e.message);
     }
-    done();
   }
 };
