@@ -1,0 +1,75 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-24T06:53:54.701Z",
+  "duration": 11,
+  "passed": 3,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "KeylessWeb": {
+      "passed": 3,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 3,
+      "assertionsCount": 4,
+      "lastError": null,
+      "testcases": {
+        "Should load the login page": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 38,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Page title should not be empty",
+              "passed": false,
+              "failure": "Passed [ok]: Page title should not be empty"
+            }
+          ],
+          "failure": "Passed [ok]: Page title should not be empty"
+        },
+        "Should display the Keyless logo": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 71,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: {\n  'element-6066-11e4-a52e-4f735466cecf': 'f.0CE78518280A92CBDF2E0CE62B9F2E24.d.3904EACCB871C7C4B4858A42E609B8D6.e.9',\n  getId: [Function (anonymous)]\n} ok Logo element should be present",
+              "passed": false,
+              "failure": "Passed [ok]: {\n  'element-6066-11e4-a52e-4f735466cecf': 'f.0CE78518280A92CBDF2E0CE62B9F2E24.d.3904EACCB871C7C4B4858A42E609B8D6.e.9',\n  getId: [Function (anonymous)]\n} ok Logo element should be present"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Logo should be visible on the page",
+              "passed": false,
+              "failure": "Passed [equal]: Logo should be visible on the page"
+            }
+          ],
+          "failure": "Passed [ok]: {\n  'element-6066-11e4-a52e-4f735466cecf': 'f.0CE78518280A92CBDF2E0CE62B9F2E24.d.3904EACCB871C7C4B4858A42E609B8D6.e.9',\n  getId: [Function (anonymous)]\n} ok Logo element should be present"
+        },
+        "Should have the correct logo src": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 49,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg",
+              "passed": false,
+              "failure": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg"
+            }
+          ],
+          "failure": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg"
+        }
+      }
+    }
+  }
+}

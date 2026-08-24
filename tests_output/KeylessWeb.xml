@@ -3,14 +3,29 @@
             failures="0"
             tests="0">
 
-  <testsuite name="Launch Keyless App in Real Device" id="Launch Keyless"
-    errors="1" failures="0" hostname="" package="Launch Keyless" skipped="1"
-    tests="0" time="0.000" timestamp="">
+  <testsuite name="Keyless Web - Login Page" id="KeylessWeb"
+    errors="1" failures="0" hostname="" package="KeylessWeb" skipped="3"
+    tests="0" time="0.001000" timestamp="">
   
 
   
     <system-err>
        An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+ An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 1
   Verify if GeckoDriver is configured correctly; using:
   {
      start_process: true,
@@ -38,7 +53,17 @@
   
     
     <testcase
-      name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device">
+      name="Should load the login page" classname="Keyless Web - Login Page">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should display the Keyless logo" classname="Keyless Web - Login Page">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should have the correct logo src" classname="Keyless Web - Login Page">
       <skipped />
     </testcase>
     

@@ -1,0 +1,81 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-24T06:49:35.111Z",
+  "duration": 99,
+  "passed": 3,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "KeylessWeb": {
+      "passed": 3,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 3,
+      "assertionsCount": 4,
+      "lastError": {
+        "name": "TimeoutError",
+        "help": [
+          "You can increase the hooks timeout by setting \"asyncHookTimeout\" in the globals config to the required value."
+        ],
+        "skipTestCases": false
+      },
+      "testcases": {
+        "Should load the login page": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 55,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Page title should not be empty",
+              "passed": false,
+              "failure": "Passed [ok]: Page title should not be empty"
+            }
+          ],
+          "failure": "Passed [ok]: Page title should not be empty"
+        },
+        "Should display the Keyless logo": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 70,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: {\n  'element-6066-11e4-a52e-4f735466cecf': '9526e74c-cbd0-4d7f-85a5-bea41af78362',\n  getId: [Function (anonymous)]\n} ok Logo element should be present",
+              "passed": false,
+              "failure": "Passed [ok]: {\n  'element-6066-11e4-a52e-4f735466cecf': '9526e74c-cbd0-4d7f-85a5-bea41af78362',\n  getId: [Function (anonymous)]\n} ok Logo element should be present"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Logo should be visible on the page",
+              "passed": false,
+              "failure": "Passed [equal]: Logo should be visible on the page"
+            }
+          ],
+          "failure": "Passed [ok]: {\n  'element-6066-11e4-a52e-4f735466cecf': '9526e74c-cbd0-4d7f-85a5-bea41af78362',\n  getId: [Function (anonymous)]\n} ok Logo element should be present"
+        },
+        "Should have the correct logo src": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 31,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg",
+              "passed": false,
+              "failure": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg"
+            }
+          ],
+          "failure": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg"
+        }
+      }
+    }
+  }
+}

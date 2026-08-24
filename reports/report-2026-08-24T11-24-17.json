@@ -1,0 +1,107 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-24T11:24:17.546Z",
+  "duration": 18,
+  "passed": 4,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "KeylessWeb": {
+      "passed": 3,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 3,
+      "assertionsCount": 3,
+      "lastError": null,
+      "testcases": {
+        "Should load the login page": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 52,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Page title should not be empty",
+              "passed": false,
+              "failure": "Passed [ok]: Page title should not be empty"
+            }
+          ],
+          "failure": "Passed [ok]: Page title should not be empty"
+        },
+        "Should display the Keyless logo": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 68,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Logo should be visible on the page",
+              "passed": false,
+              "failure": "Passed [equal]: Logo should be visible on the page"
+            }
+          ],
+          "failure": "Passed [equal]: Logo should be visible on the page"
+        },
+        "Should have the correct logo src": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 62,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg",
+              "passed": false,
+              "failure": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg"
+            }
+          ],
+          "failure": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg"
+        }
+      }
+    },
+    "Launch Keyless": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 3,
+      "lastError": null,
+      "testcases": {
+        "Should launch the Keyless app in POCO": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 441,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Keyless icon is visible on the welcome screen",
+              "passed": false,
+              "failure": "Passed [equal]: Keyless icon is visible on the welcome screen"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Welcome screen title is displayed",
+              "passed": false,
+              "failure": "Passed [equal]: Welcome screen title is displayed"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Login button is visible on the welcome screen",
+              "passed": false,
+              "failure": "Passed [equal]: Login button is visible on the welcome screen"
+            }
+          ],
+          "failure": "Passed [equal]: Keyless icon is visible on the welcome screen"
+        }
+      }
+    }
+  }
+}

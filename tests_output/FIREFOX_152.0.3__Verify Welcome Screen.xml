@@ -5,32 +5,23 @@
 
   <testsuite name="Welcome Screen - Element Assertions" id="Verify Welcome Screen"
     errors="0" failures="0" hostname="" package="Verify Welcome Screen" skipped="0"
-    tests="5" time="12.00" timestamp="">
+    tests="5" time="11.82" timestamp="">
   
-    <testcase name="Should display onboarding title &#34;Access&#34;" classname="Welcome Screen - Element Assertions" time="0.2230" assertions="2">
+    <testcase name="Should display onboarding title &#34;Access&#34;" classname="Welcome Screen - Element Assertions" time="0.2030" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Should display subtitle &#34;All your locks from one app.&#34;" classname="Welcome Screen - Element Assertions" time="0.1850" assertions="2">
+    <testcase name="Should display subtitle &#34;All your locks from one app.&#34;" classname="Welcome Screen - Element Assertions" time="0.1980" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Should display Login button" classname="Welcome Screen - Element Assertions" time="0.3120" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Should display Signup link" classname="Welcome Screen - Element Assertions" time="0.8150" assertions="3">
+    <testcase name="Should display Login button" classname="Welcome Screen - Element Assertions" time="0.2500" assertions="3">
 
     
 
@@ -39,7 +30,16 @@
     
     </testcase>
   
-    <testcase name="Should display tab indicator" classname="Welcome Screen - Element Assertions" time="0.2010" assertions="1">
+    <testcase name="Should display Signup link" classname="Welcome Screen - Element Assertions" time="0.8650" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display tab indicator" classname="Welcome Screen - Element Assertions" time="0.1510" assertions="1">
 
     
     </testcase>

@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-24T08:54:25.147Z",
+  "duration": 7,
+  "passed": 3,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "KeylessWeb": {
+      "passed": 3,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 3,
+      "assertionsCount": 3,
+      "lastError": null,
+      "testcases": {
+        "Should load the login page": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 70,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Page title should not be empty",
+              "passed": false,
+              "failure": "Passed [ok]: Page title should not be empty"
+            }
+          ],
+          "failure": "Passed [ok]: Page title should not be empty"
+        },
+        "Should display the Keyless logo": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 83,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Logo should be visible on the page",
+              "passed": false,
+              "failure": "Passed [equal]: Logo should be visible on the page"
+            }
+          ],
+          "failure": "Passed [equal]: Logo should be visible on the page"
+        },
+        "Should have the correct logo src": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 121,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg",
+              "passed": false,
+              "failure": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg"
+            }
+          ],
+          "failure": "Passed [ok]: Logo src should contain header-logo-new.svg — got: https://login.keyless.ae/images/header-logo-new.svg"
+        }
+      }
+    }
+  }
+}
