@@ -1,0 +1,117 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-25T07:29:01.549Z",
+  "duration": 43,
+  "passed": 3,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "web-verifyDashboard": {
+      "passed": 3,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 3,
+      "assertionsCount": 11,
+      "lastError": null,
+      "testcases": {
+        "Should login before verifying dashboard": {
+          "passed": 5,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 2327,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"emailUsername\"]> was visible after 17 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"emailUsername\"]> was visible after 17 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"password\"]> was visible after 12 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"password\"]> was visible after 12 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <button[type=\"submit\"].btn> was visible after 11 milliseconds.",
+              "passed": false,
+              "failure": "Element <button[type=\"submit\"].btn> was visible after 11 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <.welcome__title h3> was visible after 18 milliseconds.",
+              "passed": false,
+              "failure": "Element <.welcome__title h3> was visible after 18 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Expected \"Welcome Manager\" — got: Welcome Manager",
+              "passed": false,
+              "failure": "Passed [equal]: Expected \"Welcome Manager\" — got: Welcome Manager"
+            }
+          ],
+          "failure": "Element <input[name=\"emailUsername\"]> was visible after 17 milliseconds."
+        },
+        "Should display the left sidebar logo image": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 98,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <.logo--image> was visible after 17 milliseconds.",
+              "passed": false,
+              "failure": "Element <.logo--image> was visible after 17 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Sidebar logo image should be visible on the dashboard",
+              "passed": false,
+              "failure": "Passed [ok]: Sidebar logo image should be visible on the dashboard"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: https://login.keyless.ae/ ok Sidebar logo link should have an href — got: https://login.keyless.ae/",
+              "passed": false,
+              "failure": "Passed [ok]: https://login.keyless.ae/ ok Sidebar logo link should have an href — got: https://login.keyless.ae/"
+            }
+          ],
+          "failure": "Element <.logo--image> was visible after 17 milliseconds."
+        },
+        "Should display the left sidebar Dashboard nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 94,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 11 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 11 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Dashboard nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Dashboard nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Dashboard nav link text should include \"Dashboard\" — got: Dashboard",
+              "passed": false,
+              "failure": "Passed [ok]: Dashboard nav link text should include \"Dashboard\" — got: Dashboard"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 11 milliseconds."
+        }
+      }
+    }
+  }
+}

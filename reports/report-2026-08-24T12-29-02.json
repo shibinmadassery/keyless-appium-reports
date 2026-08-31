@@ -1,0 +1,98 @@
+{
+  "status": "fail",
+  "timestamp": "2026-08-24T12:29:02.543Z",
+  "duration": 15,
+  "passed": 3,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "web-login-PM": {
+      "passed": 3,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 4,
+      "assertionsCount": 5,
+      "lastError": {
+        "name": "NightwatchAssertError",
+        "message": "Failed [equal]: (Welcome header should read \"Welcome Manager\" — got: Login) - expected \"Welcome Manager\" but got: \"Login\" (5ms)",
+        "showDiff": false,
+        "abortOnFailure": true,
+        "namespace": "assert",
+        "stack": "    at Object.verifyWelcomeMessage (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\utlis\\webloginPage.js:45:10)\n    at async DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\web-login-PM.js:28:9)"
+      },
+      "testcases": {
+        "Should enter username in the email/username field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 92,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"emailUsername\"]> was visible after 23 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"emailUsername\"]> was visible after 23 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"emailUsername\"]> was visible after 23 milliseconds."
+        },
+        "Should enter password in the password field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 92,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"password\"]> was visible after 13 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"password\"]> was visible after 13 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"password\"]> was visible after 13 milliseconds."
+        },
+        "Should click the login button": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 140,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds.",
+              "passed": false,
+              "failure": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds."
+            }
+          ],
+          "failure": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds."
+        },
+        "Should display welcome message after login": {
+          "passed": 1,
+          "failed": 1,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 124,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <h3> was visible after 13 milliseconds.",
+              "passed": false,
+              "failure": "Element <h3> was visible after 13 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Failed [equal]: (Welcome header should read \"Welcome Manager\" — got: Login) - expected \"Welcome Manager\" but got: \"Login\" (5ms)",
+              "passed": false,
+              "failure": "Expected \"Welcome Manager\" but got: \"Login\""
+            }
+          ],
+          "failure": "Element <h3> was visible after 13 milliseconds."
+        }
+      }
+    }
+  }
+}

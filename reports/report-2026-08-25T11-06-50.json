@@ -1,0 +1,464 @@
+{
+  "status": "fail",
+  "timestamp": "2026-08-25T11:06:50.615Z",
+  "duration": 20,
+  "passed": 15,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "web-dashboard-PM": {
+      "passed": 15,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 16,
+      "assertionsCount": 51,
+      "lastError": {
+        "name": "NightwatchAssertError",
+        "message": "Failed [ok]: (Download our app section should contain at least one app store image)",
+        "showDiff": false,
+        "abortOnFailure": true,
+        "namespace": "assert",
+        "stack": "    at Object.verifyDownloadAppSection (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\utlis\\webDashboardPage.js:119:10)\n    at async DescribeInstance.<anonymous> (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\web-dashboard-PM.js:80:9)"
+      },
+      "testcases": {
+        "Should display the left sidebar logo image": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 295,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <.logo--image> was visible after 128 milliseconds.",
+              "passed": false,
+              "failure": "Element <.logo--image> was visible after 128 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Sidebar logo image should be visible on the dashboard",
+              "passed": false,
+              "failure": "Passed [ok]: Sidebar logo image should be visible on the dashboard"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: https://login.keyless.ae/ ok Sidebar logo link should have an href — got: https://login.keyless.ae/",
+              "passed": false,
+              "failure": "Passed [ok]: https://login.keyless.ae/ ok Sidebar logo link should have an href — got: https://login.keyless.ae/"
+            }
+          ],
+          "failure": "Element <.logo--image> was visible after 128 milliseconds."
+        },
+        "Should display the left sidebar Dashboard nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 259,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 100 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 100 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Dashboard nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Dashboard nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Dashboard nav link text should include \"Dashboard\" — got: Dashboard",
+              "passed": false,
+              "failure": "Passed [ok]: Dashboard nav link text should include \"Dashboard\" — got: Dashboard"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 100 milliseconds."
+        },
+        "Should display the left sidebar Locks nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 496,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.lock_link[href=\"/locks/\"]> was visible after 163 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.lock_link[href=\"/locks/\"]> was visible after 163 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Locks nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Locks nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Locks nav link href should include \"/locks/\" — got: https://login.keyless.ae/locks/",
+              "passed": false,
+              "failure": "Passed [ok]: Locks nav link href should include \"/locks/\" — got: https://login.keyless.ae/locks/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.lock_link[href=\"/locks/\"]> was visible after 163 milliseconds."
+        },
+        "Should display the left sidebar Units nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 486,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.lock_link[href=\"/units/\"]> was visible after 35 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.lock_link[href=\"/units/\"]> was visible after 35 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Units nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Units nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Units nav link href should include \"/units/\" — got: https://login.keyless.ae/units/",
+              "passed": false,
+              "failure": "Passed [ok]: Units nav link href should include \"/units/\" — got: https://login.keyless.ae/units/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.lock_link[href=\"/units/\"]> was visible after 35 milliseconds."
+        },
+        "Should display the left sidebar Building Management nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 331,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.property_link[href=\"/property-management/\"]> was visible after 125 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/property-management/\"]> was visible after 125 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Building Management nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Building Management nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Building Management nav link href should include \"/property-management/\" — got: https://login.keyless.ae/property-management/",
+              "passed": false,
+              "failure": "Passed [ok]: Building Management nav link href should include \"/property-management/\" — got: https://login.keyless.ae/property-management/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/property-management/\"]> was visible after 125 milliseconds."
+        },
+        "Should display the left sidebar Users nav link": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 231,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <span.s-sidebar__nav-link.users_link> was visible after 61 milliseconds.",
+              "passed": false,
+              "failure": "Element <span.s-sidebar__nav-link.users_link> was visible after 61 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Users nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Users nav link should be visible in the sidebar"
+            }
+          ],
+          "failure": "Element <span.s-sidebar__nav-link.users_link> was visible after 61 milliseconds."
+        },
+        "Should display the left sidebar Routine nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 416,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.routines_link[href=\"/routines/\"]> was visible after 136 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.routines_link[href=\"/routines/\"]> was visible after 136 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Routine nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Routine nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Routine nav link href should include \"/routines/\" — got: https://login.keyless.ae/routines/",
+              "passed": false,
+              "failure": "Passed [ok]: Routine nav link href should include \"/routines/\" — got: https://login.keyless.ae/routines/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.routines_link[href=\"/routines/\"]> was visible after 136 milliseconds."
+        },
+        "Should display the left sidebar Tickets nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 235,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.property_link[href=\"/tickets/\"]> was visible after 38 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/tickets/\"]> was visible after 38 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Tickets nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Tickets nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Tickets nav link href should include \"/tickets/\" — got: https://login.keyless.ae/tickets/",
+              "passed": false,
+              "failure": "Passed [ok]: Tickets nav link href should include \"/tickets/\" — got: https://login.keyless.ae/tickets/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/tickets/\"]> was visible after 38 milliseconds."
+        },
+        "Should display the left sidebar Check-in nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 296,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.property_link[href=\"/checkins/\"]> was visible after 85 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/checkins/\"]> was visible after 85 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Check-ins nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Check-ins nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Check-ins nav link href should include \"/checkins/\" — got: https://login.keyless.ae/checkins/",
+              "passed": false,
+              "failure": "Passed [ok]: Check-ins nav link href should include \"/checkins/\" — got: https://login.keyless.ae/checkins/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/checkins/\"]> was visible after 85 milliseconds."
+        },
+        "Should display the left sidebar Schedule Installation nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 275,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.property_link[href=\"/installation/assignments/\"]> was visible after 87 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/installation/assignments/\"]> was visible after 87 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Schedule Installation nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Schedule Installation nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Schedule Installation nav link href should include \"/installation/assignments/\" — got: https://login.keyless.ae/installation/assignments/",
+              "passed": false,
+              "failure": "Passed [ok]: Schedule Installation nav link href should include \"/installation/assignments/\" — got: https://login.keyless.ae/installation/assignments/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/installation/assignments/\"]> was visible after 87 milliseconds."
+        },
+        "Should display the left sidebar RFID Cards nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 77,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link[href=\"/cards/\"]> was visible after 7 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link[href=\"/cards/\"]> was visible after 7 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: RFID Cards nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: RFID Cards nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: RFID Cards nav link href should include \"/cards/\" — got: https://login.keyless.ae/cards/",
+              "passed": false,
+              "failure": "Passed [ok]: RFID Cards nav link href should include \"/cards/\" — got: https://login.keyless.ae/cards/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link[href=\"/cards/\"]> was visible after 7 milliseconds."
+        },
+        "Should display the left sidebar Settings nav link": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 78,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <//*[contains(@class,'s-sidebar__nav-link') and contains(translate(string(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'settings')]> was visible after 8 milliseconds.",
+              "passed": false,
+              "failure": "Element <//*[contains(@class,'s-sidebar__nav-link') and contains(translate(string(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'settings')]> was visible after 8 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Settings nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Settings nav link should be visible in the sidebar"
+            }
+          ],
+          "failure": "Element <//*[contains(@class,'s-sidebar__nav-link') and contains(translate(string(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'settings')]> was visible after 8 milliseconds."
+        },
+        "Should display the left sidebar Plans and Transactions nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 92,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link[href=\"/transactions/\"]> was visible after 8 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link[href=\"/transactions/\"]> was visible after 8 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Plans and Transactions nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Plans and Transactions nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Plans and Transactions nav link href should include \"/transactions/\" — got: https://login.keyless.ae/transactions/",
+              "passed": false,
+              "failure": "Passed [ok]: Plans and Transactions nav link href should include \"/transactions/\" — got: https://login.keyless.ae/transactions/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link[href=\"/transactions/\"]> was visible after 8 milliseconds."
+        },
+        "Should display the left sidebar Shop nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 233,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.shop_link[href^=\"https://shop.keyless.ae/shop\"]> was visible after 162 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.shop_link[href^=\"https://shop.keyless.ae/shop\"]> was visible after 162 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Shop nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Shop nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Shop nav link href should include \"shop.keyless.ae\" — got: https://shop.keyless.ae/shop?user_idn=NjUxYmNhOWVkOTVlZGIzMjgyNmFlOWI5",
+              "passed": false,
+              "failure": "Passed [ok]: Shop nav link href should include \"shop.keyless.ae\" — got: https://shop.keyless.ae/shop?user_idn=NjUxYmNhOWVkOTVlZGIzMjgyNmFlOWI5"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.shop_link[href^=\"https://shop.keyless.ae/shop\"]> was visible after 162 milliseconds."
+        },
+        "Should display the left sidebar Support nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 109,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.support_link[href=\"/support/help-center/\"]> was visible after 17 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.support_link[href=\"/support/help-center/\"]> was visible after 17 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Support nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Support nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Support nav link href should include \"/support/help-center/\" — got: https://login.keyless.ae/support/help-center/",
+              "passed": false,
+              "failure": "Passed [ok]: Support nav link href should include \"/support/help-center/\" — got: https://login.keyless.ae/support/help-center/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.support_link[href=\"/support/help-center/\"]> was visible after 17 milliseconds."
+        },
+        "Should display the left sidebar Download our app section": {
+          "passed": 2,
+          "failed": 1,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 156,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <.sidebarToggle.cstm_dwn_div> was visible after 10 milliseconds.",
+              "passed": false,
+              "failure": "Element <.sidebarToggle.cstm_dwn_div> was visible after 10 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Download our app section should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Download our app section should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Failed [ok]: (Download our app section should contain at least one app store image)",
+              "passed": false,
+              "failure": true
+            }
+          ],
+          "failure": "Element <.sidebarToggle.cstm_dwn_div> was visible after 10 milliseconds."
+        }
+      }
+    }
+  }
+}

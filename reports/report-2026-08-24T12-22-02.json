@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-24T12:22:02.132Z",
+  "duration": 8,
+  "passed": 2,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "web-login-PM": {
+      "passed": 2,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 2,
+      "assertionsCount": 2,
+      "lastError": null,
+      "testcases": {
+        "Should enter username in the email/username field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 123,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"emailUsername\"]> was visible after 29 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"emailUsername\"]> was visible after 29 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"emailUsername\"]> was visible after 29 milliseconds."
+        },
+        "Should enter password in the password field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 77,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"password\"]> was visible after 11 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"password\"]> was visible after 11 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"password\"]> was visible after 11 milliseconds."
+        }
+      }
+    }
+  }
+}

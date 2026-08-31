@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-24T11:49:10.752Z",
+  "duration": 38,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "web-login-PM": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 1,
+      "lastError": null,
+      "testcases": {
+        "Should enter username in the email/username field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 137,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"emailUsername\"]> was visible after 23 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"emailUsername\"]> was visible after 23 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"emailUsername\"]> was visible after 23 milliseconds."
+        }
+      }
+    }
+  }
+}

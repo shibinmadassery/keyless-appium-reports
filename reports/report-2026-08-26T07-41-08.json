@@ -1,0 +1,91 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-26T07:41:08.998Z",
+  "duration": 31,
+  "passed": 4,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "web-login-PM": {
+      "passed": 4,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 4,
+      "assertionsCount": 5,
+      "lastError": null,
+      "testcases": {
+        "Should enter username in the email/username field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 109,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"emailUsername\"]> was visible after 22 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"emailUsername\"]> was visible after 22 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"emailUsername\"]> was visible after 22 milliseconds."
+        },
+        "Should enter password in the password field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 106,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"password\"]> was visible after 20 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"password\"]> was visible after 20 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"password\"]> was visible after 20 milliseconds."
+        },
+        "Should click the login button": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 2157,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <button[type=\"submit\"].btn> was visible after 11 milliseconds.",
+              "passed": false,
+              "failure": "Element <button[type=\"submit\"].btn> was visible after 11 milliseconds."
+            }
+          ],
+          "failure": "Element <button[type=\"submit\"].btn> was visible after 11 milliseconds."
+        },
+        "Should display welcome message after login": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 387,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <.welcome__title h3> was visible after 34 milliseconds.",
+              "passed": false,
+              "failure": "Element <.welcome__title h3> was visible after 34 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Expected \"Welcome Manager\" — got: Welcome Manager",
+              "passed": false,
+              "failure": "Passed [equal]: Expected \"Welcome Manager\" — got: Welcome Manager"
+            }
+          ],
+          "failure": "Element <.welcome__title h3> was visible after 34 milliseconds."
+        }
+      }
+    }
+  }
+}

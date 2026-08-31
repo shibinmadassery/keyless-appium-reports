@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="Launch Keyless App in Real Device" id="android-launch-keyless"
+    errors="1" failures="0" hostname="" package="android-launch-keyless" skipped="1"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new GeckoDriver session: [Error] Unable to obtain browser driver.
+        For more information on how to install drivers see
+        https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/. Error: Error executing command for C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\bin\windows\selenium-manager.exe with --browser,firefox,--language-binding,javascript,--output,json: error sending request for url (https://product-details.mozilla.org/1.0/firefox_versions.json)
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new GeckoDriver session: [Error] Unable to obtain browser driver.
+        For more information on how to install drivers see
+        https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/. Error: Error executing command for C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\bin\windows\selenium-manager.exe with --browser,firefox,--language-binding,javascript,--output,json: error sending request for url (https://product-details.mozilla.org/1.0/firefox_versions.json)"><![CDATA[
+      Error: An error occurred while creating a new GeckoDriver session: [Error] Unable to obtain browser driver.
+        For more information on how to install drivers see
+        https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/. Error: Error executing command for C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\bin\windows\selenium-manager.exe with --browser,firefox,--language-binding,javascript,--output,json: error sending request for url (https://product-details.mozilla.org/1.0/firefox_versions.json)
+    at getBinaryPaths (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\common\driverFinder.js:38:11)
+    at thenableWebDriverProxy.createSession (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\firefox.js:549:45)
+    at createDriver (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\index.js:153:33)
+    at Builder.build (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\index.js:682:16)
+    at GeckoDriver.createDriver (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\transport\selenium-webdriver\index.js:266:20)
+    at GeckoDriver.getDriver (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\transport\selenium-webdriver\index.js:225:35)
+    at async GeckoDriver.createSession (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\transport\selenium-webdriver\index.js:290:21)
+    at async DefaultRunner.runTestSuite (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\runner\test-runners\default.js:83:7)
+    at async DefaultRunner.promiseFn (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\runner\test-runners\default.js:101:7)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

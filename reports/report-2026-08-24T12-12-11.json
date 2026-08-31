@@ -1,0 +1,34 @@
+{
+  "status": "fail",
+  "timestamp": "2026-08-24T12:12:11.496Z",
+  "duration": 5,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 1,
+  "modules": {
+    "web-login-PM": {
+      "passed": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "ReferenceError",
+        "displayed": true
+      },
+      "testcases": {
+        "Should enter username in the email/username field": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 1,
+          "skipped": 0,
+          "timeMs": 91,
+          "assertions": [],
+          "failure": "webLoginPage is not defined",
+          "stackTrace": "ReferenceError: webLoginPage is not defined\n    at DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\web-login-PM.js:15:9)\n    at Context.call (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\context.js:528:43)\n    at TestCase.run (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\testcase.js:58:31)\n    at Runnable.__runFn (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\index.js:844:80)\n    at Runnable.run (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\runnable.js:126:21)\n    at TestSuite.executeRunnable (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\index.js:1007:49)\n    at TestSuite.handleRunnable (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\index.js:1022:33)\n    at C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\index.js:844:21\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at process.processTimers (node:internal/timers:511:9)"
+        }
+      }
+    }
+  }
+}

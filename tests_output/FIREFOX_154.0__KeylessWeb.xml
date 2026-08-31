@@ -5,19 +5,19 @@
 
   <testsuite name="Keyless Web - Login Page" id="KeylessWeb"
     errors="0" failures="0" hostname="" package="KeylessWeb" skipped="0"
-    tests="3" time="1.732" timestamp="">
+    tests="3" time="9.356" timestamp="">
   
-    <testcase name="Should load the login page" classname="Keyless Web - Login Page" time="0.05200" assertions="1">
+    <testcase name="Should load the login page" classname="Keyless Web - Login Page" time="0.09900" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Should display the Keyless logo" classname="Keyless Web - Login Page" time="0.06800" assertions="1">
+    <testcase name="Should display the Keyless logo" classname="Keyless Web - Login Page" time="0.2120" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Should have the correct logo src" classname="Keyless Web - Login Page" time="0.06200" assertions="1">
+    <testcase name="Should have the correct logo src" classname="Keyless Web - Login Page" time="0.1140" assertions="1">
 
     
     </testcase>

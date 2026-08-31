@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="Keyless Web - Login Input" id="web-login-PM"
+    errors="1" failures="0" hostname="" package="web-login-PM" skipped="4"
+    tests="0" time="0.003000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 69
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: undefined,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from GeckoDriver.
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 69"><![CDATA[
+      Error: An error occurred while creating a new GeckoDriver session: [Error] Server terminated early with status 69
+    at C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\remote\index.js:256:70
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Should enter username in the email/username field" classname="Keyless Web - Login Input">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should enter password in the password field" classname="Keyless Web - Login Input">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should click the login button" classname="Keyless Web - Login Input">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should display welcome message after login" classname="Keyless Web - Login Input">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

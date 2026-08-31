@@ -1,0 +1,184 @@
+{
+  "status": "fail",
+  "timestamp": "2026-08-25T10:10:33.772Z",
+  "duration": 64,
+  "passed": 5,
+  "failed": 1,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "web-dashboard-PM": {
+      "passed": 5,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 6,
+      "assertionsCount": 21,
+      "lastError": {
+        "name": "NightwatchAssertError",
+        "message": "Timed out while waiting for element <a.s-sidebar__nav-link.users_link> to be present for 8000 milliseconds. - expected \"visible\" but got: \"not found\" (8311ms)",
+        "showDiff": false,
+        "abortOnFailure": true,
+        "waitFor": true,
+        "stack": "Error\n    at verifyNavLink (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\utlis\\webDashboardPage.js:47:17)\n    at Object.verifyUsersNavLink (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\utlis\\webDashboardPage.js:73:9)\n    at DescribeInstance.<anonymous> (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\web-dashboard-PM.js:40:32)\n    at Context.call (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\context.js:528:43)\n    at TestCase.run (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\testcase.js:58:31)\n    at Runnable.__runFn (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\index.js:844:80)\n    at Runnable.run (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\runnable.js:126:21)\n    at TestSuite.executeRunnable (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\index.js:1007:49)\n    at TestSuite.handleRunnable (c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\index.js:1022:33)\n    at c:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\node_modules\\nightwatch\\lib\\testsuite\\index.js:844:21"
+      },
+      "testcases": {
+        "Should display the left sidebar logo image": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 358,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <.logo--image> was visible after 157 milliseconds.",
+              "passed": false,
+              "failure": "Element <.logo--image> was visible after 157 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Sidebar logo image should be visible on the dashboard",
+              "passed": false,
+              "failure": "Passed [ok]: Sidebar logo image should be visible on the dashboard"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: https://login.keyless.ae/ ok Sidebar logo link should have an href — got: https://login.keyless.ae/",
+              "passed": false,
+              "failure": "Passed [ok]: https://login.keyless.ae/ ok Sidebar logo link should have an href — got: https://login.keyless.ae/"
+            }
+          ],
+          "failure": "Element <.logo--image> was visible after 157 milliseconds."
+        },
+        "Should display the left sidebar Dashboard nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 355,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 94 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 94 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Dashboard nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Dashboard nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Dashboard nav link text should include \"Dashboard\" — got: Dashboard",
+              "passed": false,
+              "failure": "Passed [ok]: Dashboard nav link text should include \"Dashboard\" — got: Dashboard"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link[href=\"/dashboard/\"]> was visible after 94 milliseconds."
+        },
+        "Should display the left sidebar Locks nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 546,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.lock_link[href=\"/locks/\"]> was visible after 139 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.lock_link[href=\"/locks/\"]> was visible after 139 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Locks nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Locks nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Locks nav link href should include \"/locks/\" — got: https://login.keyless.ae/locks/",
+              "passed": false,
+              "failure": "Passed [ok]: Locks nav link href should include \"/locks/\" — got: https://login.keyless.ae/locks/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.lock_link[href=\"/locks/\"]> was visible after 139 milliseconds."
+        },
+        "Should display the left sidebar Units nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 340,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.lock_link[href=\"/units/\"]> was visible after 124 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.lock_link[href=\"/units/\"]> was visible after 124 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Units nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Units nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Units nav link href should include \"/units/\" — got: https://login.keyless.ae/units/",
+              "passed": false,
+              "failure": "Passed [ok]: Units nav link href should include \"/units/\" — got: https://login.keyless.ae/units/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.lock_link[href=\"/units/\"]> was visible after 124 milliseconds."
+        },
+        "Should display the left sidebar Building Management nav link": {
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 327,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <a.s-sidebar__nav-link.property_link[href=\"/property-management/\"]> was visible after 38 milliseconds.",
+              "passed": false,
+              "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/property-management/\"]> was visible after 38 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Building Management nav link should be visible in the sidebar",
+              "passed": false,
+              "failure": "Passed [ok]: Building Management nav link should be visible in the sidebar"
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Building Management nav link href should include \"/property-management/\" — got: https://login.keyless.ae/property-management/",
+              "passed": false,
+              "failure": "Passed [ok]: Building Management nav link href should include \"/property-management/\" — got: https://login.keyless.ae/property-management/"
+            }
+          ],
+          "failure": "Element <a.s-sidebar__nav-link.property_link[href=\"/property-management/\"]> was visible after 38 milliseconds."
+        },
+        "Should display the left sidebar Users nav link": {
+          "passed": 0,
+          "failed": 1,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 8416,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Timed out while waiting for element <a.s-sidebar__nav-link.users_link> to be present for 8000 milliseconds. - expected \"visible\" but got: \"not found\" (8311ms)",
+              "passed": false,
+              "failure": "Expected \"visible\" but got: \"not found\""
+            }
+          ],
+          "failure": "Expected \"visible\" but got: \"not found\""
+        }
+      }
+    }
+  }
+}
