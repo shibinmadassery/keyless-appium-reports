@@ -1,0 +1,158 @@
+{
+  "status": "pass",
+  "timestamp": "2026-08-31T10:45:21.447Z",
+  "duration": 167,
+  "passed": 5,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 3,
+  "modules": {
+    "android-launch-keyless": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "TimeoutError",
+        "help": [
+          "You can increase the hooks timeout by setting \"asyncHookTimeout\" in the globals config to the required value."
+        ],
+        "skipTestCases": true,
+        "displayed": true
+      },
+      "testcases": {}
+    },
+    "android-login-PM": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login to PM Account": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 15375,
+          "assertions": []
+        }
+      }
+    },
+    "android-verify-welcome-screen": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 0,
+      "lastError": {
+        "name": "TimeoutError",
+        "help": [
+          "You can increase the hooks timeout by setting \"asyncHookTimeout\" in the globals config to the required value."
+        ],
+        "skipTestCases": true,
+        "displayed": true
+      },
+      "testcases": {}
+    },
+    "web-dashboard-PM": {
+      "passed": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 0,
+      "assertionsCount": 1,
+      "lastError": {
+        "name": "NightwatchAssertError",
+        "message": "Timed out while waiting for element <input[name=\"emailUsername\"]> to be present for 5000 milliseconds. - expected \"visible\" but got: \"not found\" (5334ms)",
+        "showDiff": false,
+        "abortOnFailure": true,
+        "waitFor": true,
+        "skipTestCases": true,
+        "stack": "Error\n    at Object.enterUsername (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\utlis\\webloginPage.js:20:6)\n    at DescribeInstance.<anonymous> (C:\\Users\\shibi\\OneDrive - SIRA.Gov.AE\\keyless-appium\\nightwatch\\tests\\web-dashboard-PM.js:9:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+      },
+      "testcases": {}
+    },
+    "web-login-PM": {
+      "passed": 4,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 4,
+      "assertionsCount": 5,
+      "lastError": null,
+      "testcases": {
+        "Should enter username in the email/username field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 99,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"emailUsername\"]> was visible after 20 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"emailUsername\"]> was visible after 20 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"emailUsername\"]> was visible after 20 milliseconds."
+        },
+        "Should enter password in the password field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 83,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"password\"]> was visible after 9 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"password\"]> was visible after 9 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"password\"]> was visible after 9 milliseconds."
+        },
+        "Should click the login button": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 2118,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds.",
+              "passed": false,
+              "failure": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds."
+            }
+          ],
+          "failure": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds."
+        },
+        "Should display welcome message after login": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 149,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <.welcome__title h3> was visible after 97 milliseconds.",
+              "passed": false,
+              "failure": "Element <.welcome__title h3> was visible after 97 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Expected \"Welcome Manager\" — got: Welcome Manager",
+              "passed": false,
+              "failure": "Passed [equal]: Expected \"Welcome Manager\" — got: Welcome Manager"
+            }
+          ],
+          "failure": "Element <.welcome__title h3> was visible after 97 milliseconds."
+        }
+      }
+    }
+  }
+}

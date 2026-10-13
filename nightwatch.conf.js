@@ -33,6 +33,11 @@ module.exports = {
   globals_path : './nightwatch-hook.js',
 
   globals: {
+    // First Appium session on a cold device installs the UiAutomator2 server
+    // APKs and cold-starts the app, which can exceed the default 20s hook
+    // timeout. Match connectionRetryTimeout in config/config.js.
+    asyncHookTimeout: 120000,
+
     reporter: function(results, done) {
       const fs   = require('fs');
       const path = require('path');

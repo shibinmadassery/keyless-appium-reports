@@ -1,0 +1,113 @@
+{
+  "status": "pass",
+  "timestamp": "2026-10-13T11:05:49.295Z",
+  "duration": 24,
+  "passed": 5,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "web-login-PM": {
+      "passed": 5,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 5,
+      "assertionsCount": 7,
+      "lastError": null,
+      "testcases": {
+        "Should enter username in the email/username field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 186,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"emailUsername\"]> was visible after 48 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"emailUsername\"]> was visible after 48 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"emailUsername\"]> was visible after 48 milliseconds."
+        },
+        "Should enter password in the password field": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 79,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <input[name=\"password\"]> was visible after 9 milliseconds.",
+              "passed": false,
+              "failure": "Element <input[name=\"password\"]> was visible after 9 milliseconds."
+            }
+          ],
+          "failure": "Element <input[name=\"password\"]> was visible after 9 milliseconds."
+        },
+        "Should display an enabled login button": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 107,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <button[type=\"submit\"].btn> was visible after 30 milliseconds.",
+              "passed": false,
+              "failure": "Element <button[type=\"submit\"].btn> was visible after 30 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [ok]: Login button should be enabled",
+              "passed": false,
+              "failure": "Passed [ok]: Login button should be enabled"
+            }
+          ],
+          "failure": "Element <button[type=\"submit\"].btn> was visible after 30 milliseconds."
+        },
+        "Should click the login button": {
+          "passed": 1,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 2163,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds.",
+              "passed": false,
+              "failure": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds."
+            }
+          ],
+          "failure": "Element <button[type=\"submit\"].btn> was visible after 9 milliseconds."
+        },
+        "Should display welcome message after login": {
+          "passed": 2,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 242,
+          "assertions": [
+            {
+              "name": "NightwatchAssertError",
+              "message": "Element <.welcome__title h3> was visible after 51 milliseconds.",
+              "passed": false,
+              "failure": "Element <.welcome__title h3> was visible after 51 milliseconds."
+            },
+            {
+              "name": "NightwatchAssertError",
+              "message": "Passed [equal]: Expected \"Welcome Manager\" — got: Welcome Manager",
+              "passed": false,
+              "failure": "Passed [equal]: Expected \"Welcome Manager\" — got: Welcome Manager"
+            }
+          ],
+          "failure": "Element <.welcome__title h3> was visible after 51 milliseconds."
+        }
+      }
+    }
+  }
+}

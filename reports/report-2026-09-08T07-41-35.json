@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "timestamp": "2026-09-08T07:41:35.477Z",
+  "duration": 17,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "modules": {
+    "android-login-PM": {
+      "passed": 1,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1,
+      "assertionsCount": 0,
+      "lastError": null,
+      "testcases": {
+        "Should login to PM Account": {
+          "passed": 0,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "timeMs": 13705,
+          "assertions": []
+        }
+      }
+    }
+  }
+}

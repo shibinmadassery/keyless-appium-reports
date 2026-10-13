@@ -15,6 +15,7 @@ const selectors = {
   transactionsNavLink:         'a.s-sidebar__nav-link[href="/transactions/"]',
   shopNavLink:                 'a.s-sidebar__nav-link.shop_link[href^="https://shop.keyless.ae/shop"]',
   supportNavLink:              'a.s-sidebar__nav-link.support_link[href="/support/help-center/"]',
+  logoutButton:                { selector: "//a[@class='btn']", locateStrategy: 'xpath' }
 };
 
 async function verifySidebarLogo(browser) {
@@ -107,6 +108,25 @@ async function verifySupportNavLink(browser) {
   await verifyNavLink(browser, selectors.supportNavLink, 'Support', '/support/help-center/');
 }
 
+async function verifyLogoutButton(browser) {
+  const { assert } = require('nightwatch');
+  await browser.waitForElementVisible(selectors.logoutButton, 8000);
+  const displayed = await browser.isVisible(selectors.logoutButton);
+  assert.ok(displayed, 'Logout button should be visible on the dashboard');
+}
+
+async function clickLogout(browser) {
+  const { assert } = require('nightwatch');
+  const webLoginPage = require('./webloginPage');
+  await browser
+    .waitForElementVisible(selectors.logoutButton, 8000)
+    .click(selectors.logoutButton);
+  // Wait for redirect back to the login page
+  await browser.waitForElementVisible(webLoginPage.selectors.usernameInput, 8000);
+  const displayed = await browser.isVisible(webLoginPage.selectors.usernameInput);
+  assert.ok(displayed, 'Login page should be displayed after logout');
+}
+
 module.exports = {
   selectors,
   verifySidebarLogo,
@@ -124,4 +144,6 @@ module.exports = {
   verifyTransactionsNavLink,
   verifyShopNavLink,
   verifySupportNavLink,
+  verifyLogoutButton,
+  clickLogout,
 };

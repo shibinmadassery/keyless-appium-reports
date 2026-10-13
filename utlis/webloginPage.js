@@ -32,6 +32,13 @@ async function enterCredentials(browser, username, password) {
   await enterPassword(browser, password);
 }
 
+async function verifyLoginButton(browser) {
+  const { assert } = require('nightwatch');
+  await browser.waitForElementVisible(selectors.loginButton, 5000);
+  const enabled = await browser.isEnabled(selectors.loginButton);
+  assert.ok(enabled, 'Login button should be enabled');
+}
+
 async function clickLogin(browser) {
   await browser
     .waitForElementVisible(selectors.loginButton, 5000)
@@ -53,6 +60,7 @@ module.exports = {
   enterUsername,
   enterPassword,
   enterCredentials,
+  verifyLoginButton,
   clickLogin,
   verifyWelcomeMessage
 };

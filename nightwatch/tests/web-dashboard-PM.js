@@ -75,4 +75,13 @@ describe('Keyless Web - Verify Dashboard', () => {
     it('Should display the left sidebar Support nav link', async (browser) => {
         await webDashboardPage.verifySupportNavLink(browser);
     });
+
+    it('Should display the Logout button', async (browser) => {
+        await webDashboardPage.verifyLogoutButton(browser);
+    });
+
+    it('Should click the Logout button and return to the login page', async (browser) => {
+        await webDashboardPage.clickLogout(browser);
+        await webLoginPage.verifyLoginButton(browser);
+    });
 });

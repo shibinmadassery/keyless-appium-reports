@@ -5,9 +5,9 @@
 
   <testsuite name="Launch Keyless App in Real Device" id="android-launch-keyless"
     errors="0" failures="0" hostname="" package="android-launch-keyless" skipped="0"
-    tests="1" time="10.44" timestamp="">
+    tests="1" time="12.21" timestamp="">
   
-    <testcase name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device" time="0.4920" assertions="3">
+    <testcase name="Should launch the Keyless app in POCO" classname="Launch Keyless App in Real Device" time="0.5830" assertions="3">
 
     
 

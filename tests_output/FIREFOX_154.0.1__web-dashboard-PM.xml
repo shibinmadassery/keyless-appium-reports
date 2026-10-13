@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="15">
+
+  <testsuite name="Keyless Web - Verify Dashboard" id="web-dashboard-PM"
+    errors="1" failures="0" hostname="" package="web-dashboard-PM" skipped="0"
+    tests="15" time="28.71" timestamp="">
+  
+    <testcase name="Should display the left sidebar logo image" classname="Keyless Web - Verify Dashboard" time="0.2620" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Dashboard nav link" classname="Keyless Web - Verify Dashboard" time="0.7820" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Locks nav link" classname="Keyless Web - Verify Dashboard" time="0.6650" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Units nav link" classname="Keyless Web - Verify Dashboard" time="0.1830" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Building Management nav link" classname="Keyless Web - Verify Dashboard" time="0.3340" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Users nav link" classname="Keyless Web - Verify Dashboard" time="0.4640" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Routine nav link" classname="Keyless Web - Verify Dashboard" time="0.1170" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Tickets nav link" classname="Keyless Web - Verify Dashboard" time="0.2480" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Check-in nav link" classname="Keyless Web - Verify Dashboard" time="0.2820" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Schedule Installation nav link" classname="Keyless Web - Verify Dashboard" time="0.3660" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar RFID Cards nav link" classname="Keyless Web - Verify Dashboard" time="0.3840" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Settings nav link" classname="Keyless Web - Verify Dashboard" time="0.2480" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Plans and Transactions nav link" classname="Keyless Web - Verify Dashboard" time="0.5330" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Shop nav link" classname="Keyless Web - Verify Dashboard" time="0.2330" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should display the left sidebar Support nav link" classname="Keyless Web - Verify Dashboard" time="0.4660" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;before&#34;. Make sure to call the done() callback when the operation finishes.
+
+    Try fixing by :
+    1. You can increase the hooks timeout by setting &#34;asyncHookTimeout&#34; in the globals config to the required value.
+ Error
+   Can&#39;t call getElementText on element with selector &#34;id:com.keyless_dubai:id/onboardTitle&#34; because element wasn&#39;t found
+
+    Error location:
+    C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\android-verify-welcome-screen.js:27
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     25 |     const title = await driver.$(&#39;id:com.keyless_dubai:id/onboardTitle&#39;);
+     26 |     assert.equal(await title.isDisplayed(), true, &#39;Title should be visible&#39;);
+     27 |     assert.equal(await title.getText(), &#39;Access&#39;, &#39;Title should read &#34;Access&#34;&#39;); 
+     28 | });
+     29 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;after&#34;. Make sure to call the done() callback when the operation finishes.
+
+    Try fixing by :
+    1. You can increase the hooks timeout by setting &#34;asyncHookTimeout&#34; in the globals config to the required value.
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

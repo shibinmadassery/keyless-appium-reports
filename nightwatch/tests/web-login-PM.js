@@ -19,6 +19,10 @@ describe('Keyless Web - Login Input', () => {
     it('Should enter password in the password field', async (browser) => {
         await webLoginPage.enterPassword(browser, webConfig.credentials.password);
     });
+    it('Should display an enabled login button', async (browser) => {
+        await webLoginPage.verifyLoginButton(browser);
+    });
+
      it('Should click the login button', async (browser) => {
         await webLoginPage.clickLogin(browser);
     });

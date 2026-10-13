@@ -5,24 +5,24 @@
 
   <testsuite name="Keyless Web - Login Input" id="web-login-PM"
     errors="0" failures="0" hostname="" package="web-login-PM" skipped="0"
-    tests="4" time="11.01" timestamp="">
+    tests="4" time="8.468" timestamp="">
   
-    <testcase name="Should enter username in the email/username field" classname="Keyless Web - Login Input" time="0.1110" assertions="1">
+    <testcase name="Should enter username in the email/username field" classname="Keyless Web - Login Input" time="0.08300" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Should enter password in the password field" classname="Keyless Web - Login Input" time="0.09200" assertions="1">
+    <testcase name="Should enter password in the password field" classname="Keyless Web - Login Input" time="0.08200" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Should click the login button" classname="Keyless Web - Login Input" time="2.139" assertions="1">
+    <testcase name="Should click the login button" classname="Keyless Web - Login Input" time="2.117" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Should display welcome message after login" classname="Keyless Web - Login Input" time="0.3510" assertions="2">
+    <testcase name="Should display welcome message after login" classname="Keyless Web - Login Input" time="0.06700" assertions="2">
 
     
 
@@ -30,6 +30,32 @@
     </testcase>
   
 
+  
+    <system-err>
+       TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;before&#34;. Make sure to call the done() callback when the operation finishes.
+
+    Try fixing by :
+    1. You can increase the hooks timeout by setting &#34;asyncHookTimeout&#34; in the globals config to the required value.
+ Error
+   Can&#39;t call getElementText on element with selector &#34;id:com.keyless_dubai:id/onboardTitle&#34; because element wasn&#39;t found
+
+    Error location:
+    C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\android-verify-welcome-screen.js:27
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     25 |     const title = await driver.$(&#39;id:com.keyless_dubai:id/onboardTitle&#39;);
+     26 |     assert.equal(await title.isDisplayed(), true, &#39;Title should be visible&#39;);
+     27 |     assert.equal(await title.getText(), &#39;Access&#39;, &#39;Title should read &#34;Access&#34;&#39;); 
+     28 | });
+     29 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;after&#34;. Make sure to call the done() callback when the operation finishes.
+
+    Try fixing by :
+    1. You can increase the hooks timeout by setting &#34;asyncHookTimeout&#34; in the globals config to the required value.
+    </system-err>
   
 
     

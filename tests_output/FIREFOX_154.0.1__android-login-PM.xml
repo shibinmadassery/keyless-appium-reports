@@ -5,12 +5,38 @@
 
   <testsuite name="Login to KeyLess App" id="android-login-PM"
     errors="0" failures="0" hostname="" package="android-login-PM" skipped="0"
-    tests="1" time="13.42" timestamp="">
+    tests="1" time="14.45" timestamp="">
   
-    <testcase name="Should login to PM Account" classname="Login to KeyLess App" time="13.42" assertions="0">
+    <testcase name="Should login to PM Account" classname="Login to KeyLess App" time="14.45" assertions="0">
     </testcase>
   
 
+  
+    <system-err>
+       TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;before&#34;. Make sure to call the done() callback when the operation finishes.
+
+    Try fixing by :
+    1. You can increase the hooks timeout by setting &#34;asyncHookTimeout&#34; in the globals config to the required value.
+ Error
+   Can&#39;t call getElementText on element with selector &#34;id:com.keyless_dubai:id/onboardTitle&#34; because element wasn&#39;t found
+
+    Error location:
+    C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\nightwatch\tests\android-verify-welcome-screen.js:27
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     25 |     const title = await driver.$(&#39;id:com.keyless_dubai:id/onboardTitle&#39;);
+     26 |     assert.equal(await title.isDisplayed(), true, &#39;Title should be visible&#39;);
+     27 |     assert.equal(await title.getText(), &#39;Access&#39;, &#39;Title should read &#34;Access&#34;&#39;); 
+     28 | });
+     29 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   done() callback timeout of 20000ms was reached while executing &#34;after&#34;. Make sure to call the done() callback when the operation finishes.
+
+    Try fixing by :
+    1. You can increase the hooks timeout by setting &#34;asyncHookTimeout&#34; in the globals config to the required value.
+    </system-err>
   
 
     

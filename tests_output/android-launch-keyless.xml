@@ -10,9 +10,7 @@
 
   
     <system-err>
-       An error occurred while creating a new GeckoDriver session: [Error] Unable to obtain browser driver.
-        For more information on how to install drivers see
-        https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/. Error: Error executing command for C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\bin\windows\selenium-manager.exe with --browser,firefox,--language-binding,javascript,--output,json: error sending request for url (https://product-details.mozilla.org/1.0/firefox_versions.json)
+       An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started
   Verify if GeckoDriver is configured correctly; using:
   {
      start_process: true,
@@ -31,21 +29,12 @@
   
 
     
-    <error message="An error occurred while creating a new GeckoDriver session: [Error] Unable to obtain browser driver.
-        For more information on how to install drivers see
-        https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/. Error: Error executing command for C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\bin\windows\selenium-manager.exe with --browser,firefox,--language-binding,javascript,--output,json: error sending request for url (https://product-details.mozilla.org/1.0/firefox_versions.json)"><![CDATA[
-      Error: An error occurred while creating a new GeckoDriver session: [Error] Unable to obtain browser driver.
-        For more information on how to install drivers see
-        https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/. Error: Error executing command for C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\bin\windows\selenium-manager.exe with --browser,firefox,--language-binding,javascript,--output,json: error sending request for url (https://product-details.mozilla.org/1.0/firefox_versions.json)
-    at getBinaryPaths (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\common\driverFinder.js:38:11)
-    at thenableWebDriverProxy.createSession (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\firefox.js:549:45)
-    at createDriver (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\index.js:153:33)
-    at Builder.build (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\index.js:682:16)
-    at GeckoDriver.createDriver (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\transport\selenium-webdriver\index.js:266:20)
-    at GeckoDriver.getDriver (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\transport\selenium-webdriver\index.js:225:35)
-    at async GeckoDriver.createSession (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\transport\selenium-webdriver\index.js:290:21)
-    at async DefaultRunner.runTestSuite (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\runner\test-runners\default.js:83:7)
-    at async DefaultRunner.promiseFn (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\nightwatch\lib\runner\test-runners\default.js:101:7)
+    <error message="An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started"><![CDATA[
+      SessionNotCreatedError: An error occurred while creating a new GeckoDriver session: [SessionNotCreatedError] Session is already started
+    at Object.throwDecodedError (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\shibi\OneDrive - SIRA.Gov.AE\keyless-appium\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
       ]]></error>  
 
   
